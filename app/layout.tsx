@@ -15,8 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Possibility — generative media experiences',
   description: 'Elsewhere, Worldline and FLUX 3 Action: three experiences built with generative media on fal.',
-  // Unlisted until the repository goes public.
-  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({
