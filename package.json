@@ -1,0 +1,34 @@
+{
+  "name": "genmedia-demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Three generative-media experiences: Elsewhere (stories), Worldline (delivery robot) and FLUX 3 Action (robot arm).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "@base-ui/react": "1.7.0",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "tailwind-merge": "3.6.0",
+    "lucide-react": "1.31.0",
+    "three": "^0.180.0",
+    "urdf-loader": "^0.13.1",
+    "tw-animate-css": "1.4.0",
+    "shadcn": "4.18.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "^0.180.0"
+  }
+}

@@ -1,0 +1,72 @@
+.xp-header {
+  height: 53px;
+  flex: 0 0 53px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 0 22px;
+  border-bottom: 1px solid #222;
+  white-space: nowrap;
+  background: #000;
+  color: #eee;
+}
+.xp-header,
+.xp-header * {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px !important;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+}
+.xp-header a {
+  text-decoration: none;
+}
+.xp-brand {
+  color: #fff !important;
+}
+.xp-nav {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+}
+.xp-nav > * {
+  padding: 3px 12px;
+  color: #9a9a9a !important;
+  border: 1px solid transparent;
+}
+.xp-nav a:hover {
+  color: #fff !important;
+  border-color: #444;
+}
+.xp-nav .on {
+  color: #000 !important;
+  background: #e8e8e8;
+}
+.xp-sub {
+  display: flex;
+  gap: 8px;
+  padding: 8px 22px;
+  border-bottom: 1px solid var(--line, #222);
+  flex: 0 0 auto;
+}
+.xp-sub button {
+  font-size: 14px !important;
+  background: transparent;
+  border: 1px solid #333;
+  color: #9a9a9a;
+  padding: 2px 12px;
+  cursor: pointer;
+}
+.xp-sub button.on {
+  background: #e8e8e8;
+  color: #000;
+  border-color: #e8e8e8;
+}
+@media (max-width: 700px) {
+  .xp-header {
+    padding: 0 12px !important;
+    gap: 12px !important;
+  }
+  .xp-nav > * {
+    padding: 3px 6px;
+  }
+  }

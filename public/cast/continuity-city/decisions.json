@@ -1,0 +1,964 @@
+{
+  "model": "typesafe/jev-1.13-20260917",
+  "visionModel": "google/gemini-2.5-flash",
+  "mode": "recorded",
+  "postHoc": true,
+  "jevRequestId": "01a0d0ff-3261-7cf0-a554-2b652444df61",
+  "forkCount": 25,
+  "decisions": {
+    "a": {
+      "selectedId": "a1",
+      "order": [
+        "a1",
+        "a2",
+        "a3",
+        "a4"
+      ],
+      "probabilities": {
+        "a4": 0.02,
+        "a1": 0.61,
+        "a2": 0.33,
+        "a3": 0.04
+      },
+      "reviews": {
+        "a1": {
+          "observations": "The blue signal brightens and moves closer to the characters. The characters continue walking forward.",
+          "continuity": "Characters, environment, and camera angle are consistent. The signal's brightness is a clear change.",
+          "interest": "The brightening signal adds visual emphasis and suggests an approaching event."
+        },
+        "a2": {
+          "observations": "The characters and signal turn towards the street. The signal moves further into the street.",
+          "continuity": "Characters and environment are consistent. The camera angle shifts slightly to follow the turn.",
+          "interest": "The change in direction creates a sense of progression and exploration."
+        },
+        "a3": {
+          "observations": "The characters and signal turn towards a storefront, with the signal appearing to reflect in the window.",
+          "continuity": "Characters are consistent. The environment changes to a storefront, introducing new elements.",
+          "interest": "The reflection adds a layer of visual complexity and hints at interaction with the environment."
+        },
+        "a4": {
+          "observations": "The blue signal returns to its original, less bright state and position relative to the characters.",
+          "continuity": "Characters, environment, and camera are consistent. The signal's return to its previous state is notable.",
+          "interest": "The signal's return to its initial state creates a sense of a loop or reset."
+        }
+      },
+      "confidence": 0.48
+    },
+    "a1": {
+      "selectedId": "a14",
+      "order": [
+        "a14",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "probabilities": {
+        "a14": 0.68,
+        "a13": 0.01,
+        "a11": 0.19,
+        "a12": 0.12
+      },
+      "reviews": {
+        "a11": {
+          "observations": "The characters and the jellyfish-like creature continue walking past the gate. The camera follows their motion.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Smooth continuation of the parent clip, but lacks new visual elements."
+        },
+        "a12": {
+          "observations": "The characters and the jellyfish-like creature continue walking. The male character turns his head slightly.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the male's face.",
+          "interest": "The subtle head turn adds a hint of character interaction or observation."
+        },
+        "a13": {
+          "observations": "The characters and the jellyfish-like creature continue walking. The female character turns her head slightly.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the female's face.",
+          "interest": "Similar to a12, the head turn suggests a moment of reflection or observation."
+        },
+        "a14": {
+          "observations": "The characters and the jellyfish-like creature continue walking. The camera pulls back slightly, revealing more of the street.",
+          "continuity": "Identities and environment are consistent. Camera pulls back, widening the shot.",
+          "interest": "The wider shot provides more context of the environment, opening up the scene."
+        }
+      },
+      "confidence": 0.57
+    },
+    "a2": {
+      "selectedId": "a24",
+      "order": [
+        "a24",
+        "a21",
+        "a22",
+        "a23"
+      ],
+      "probabilities": {
+        "a23": 0.03,
+        "a21": 0.04,
+        "a24": 0.9,
+        "a22": 0.03
+      },
+      "reviews": {
+        "a21": {
+          "observations": "The two characters and the jellyfish continue walking forward on the street, maintaining their relative positions.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "The continuation is smooth and predictable, but lacks visual novelty."
+        },
+        "a22": {
+          "observations": "The two characters and the jellyfish are now standing still on the sidewalk, facing the street.",
+          "continuity": "Identities and environment are consistent. The camera has slightly zoomed out and shifted right.",
+          "interest": "The change in action and camera perspective adds a new dynamic."
+        },
+        "a23": {
+          "observations": "The two characters and the jellyfish are walking back towards the left side of the frame.",
+          "continuity": "Identities and environment are consistent. The camera has slightly zoomed out and shifted left.",
+          "interest": "The reversal of direction is an unexpected and interesting change."
+        },
+        "a24": {
+          "observations": "The two characters and the jellyfish continue walking forward, with the camera pulling back to reveal more of the street.",
+          "continuity": "Identities and environment are consistent. The camera smoothly pulls back, widening the view.",
+          "interest": "The expanding view of the environment adds depth and context."
+        }
+      },
+      "confidence": 0.86
+    },
+    "a3": {
+      "selectedId": "a34",
+      "order": [
+        "a34",
+        "a32",
+        "a31",
+        "a33"
+      ],
+      "probabilities": {
+        "a32": 0.14,
+        "a31": 0.06,
+        "a33": 0.0,
+        "a34": 0.8
+      },
+      "reviews": {
+        "a31": {
+          "observations": "The two characters and the jellyfish-like creature continue walking past the storefront, maintaining their relative positions.",
+          "continuity": "Identities, environment, and camera angle are consistent. The motion is smooth, with no visible seam issues.",
+          "interest": "Visually, it's a straightforward continuation of the parent clip's motion, lacking new visual elements."
+        },
+        "a32": {
+          "observations": "The two characters and the jellyfish-like creature stop in front of the storefront. A blue light appears on the right pillar.",
+          "continuity": "Identities, environment, and camera angle are consistent. The sudden stop and light are new elements.",
+          "interest": "The appearance of the blue light adds a new, intriguing detail, suggesting an interaction or event."
+        },
+        "a33": {
+          "observations": "The two characters and the jellyfish-like creature are shown from a slightly different angle, looking at the storefront.",
+          "continuity": "Identities and environment are consistent. The camera angle shifts slightly, creating a subtle seam.",
+          "interest": "The slight camera angle change offers a fresh perspective on the scene, but the action is static."
+        },
+        "a34": {
+          "observations": "The two characters and the jellyfish-like creature continue walking past the storefront, with the camera panning to follow them.",
+          "continuity": "Identities and environment are consistent. The camera movement creates a smooth, continuous pan.",
+          "interest": "The camera pan effectively follows the characters, creating a sense of continued journey and exploration."
+        }
+      },
+      "confidence": 0.74
+    },
+    "a4": {
+      "selectedId": "a42",
+      "order": [
+        "a42",
+        "a41",
+        "a44",
+        "a43"
+      ],
+      "probabilities": {
+        "a44": 0.06,
+        "a41": 0.24,
+        "a43": 0.05,
+        "a42": 0.65
+      },
+      "reviews": {
+        "a41": {
+          "observations": "The characters and jellyfish are now facing the camera, having turned around. The jellyfish is now on the right side of the male character.",
+          "continuity": "Characters, jellyfish, and environment are consistent. Camera angle is slightly different, showing more of the street.",
+          "interest": "The change in direction and camera angle adds dynamic movement to the scene."
+        },
+        "a42": {
+          "observations": "A large, transparent bubble-like structure appears around the characters and jellyfish. A blue glow is visible.",
+          "continuity": "Characters, jellyfish, and environment are consistent. The camera angle is slightly wider, revealing the new element.",
+          "interest": "The sudden appearance of the bubble and glow introduces a mysterious and intriguing new element."
+        },
+        "a43": {
+          "observations": "The characters and jellyfish are now facing the camera, having turned around. The jellyfish is now on the right side of the male character.",
+          "continuity": "Characters, jellyfish, and environment are consistent. Camera angle is slightly different, showing more of the street.",
+          "interest": "The change in direction and camera angle adds dynamic movement to the scene."
+        },
+        "a44": {
+          "observations": "The characters and jellyfish are now facing the camera, having turned around. The jellyfish is now on the right side of the male character.",
+          "continuity": "Characters, jellyfish, and environment are consistent. Camera angle is slightly different, showing more of the street.",
+          "interest": "The change in direction and camera angle adds dynamic movement to the scene."
+        }
+      },
+      "confidence": 0.54
+    },
+    "c": {
+      "selectedId": "c4",
+      "order": [
+        "c4",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "probabilities": {
+        "c2": 0.07,
+        "c3": 0.03,
+        "c1": 0.08,
+        "c4": 0.82
+      },
+      "reviews": {
+        "c1": {
+          "observations": "The companion character moves closer to the two people, who remain stationary. The companion's tentacles are visible.",
+          "continuity": "All characters and the environment are consistent. The camera angle and position are maintained perfectly.",
+          "interest": "The subtle movement of the companion adds a gentle progression to the scene."
+        },
+        "c2": {
+          "observations": "The companion character glows with blue light and its tentacles become more prominent and illuminated.",
+          "continuity": "Characters and environment are consistent. The camera angle and position are maintained. The glow is a new visual element.",
+          "interest": "The sudden glow of the companion is visually striking and introduces a magical element."
+        },
+        "c3": {
+          "observations": "The companion character moves slightly forward and its tentacles are more visible. The two people remain still.",
+          "continuity": "All characters and the environment are consistent. The camera angle and position are maintained perfectly.",
+          "interest": "The slight forward movement of the companion creates a sense of subtle progression."
+        },
+        "c4": {
+          "observations": "The two people and the companion character all take a step forward, moving down the street.",
+          "continuity": "All characters and the environment are consistent. The camera moves slightly to follow the characters.",
+          "interest": "The synchronized movement of all characters creates a sense of continuation and purpose."
+        }
+      },
+      "confidence": 0.77
+    },
+    "c1": {
+      "selectedId": "c14",
+      "order": [
+        "c14",
+        "c11",
+        "c12",
+        "c13"
+      ],
+      "probabilities": {
+        "c11": 0.1,
+        "c13": 0.02,
+        "c12": 0.04,
+        "c14": 0.84
+      },
+      "reviews": {
+        "c11": {
+          "observations": "The character on the right bends down, seemingly picking up or interacting with the white object. The character on the left remains still.",
+          "continuity": "Identities and environment are consistent. The camera angle is slightly lower, creating a subtle seam. Lighting is consistent.",
+          "interest": "The action of bending down adds dynamic movement, creating visual interest and suggesting interaction."
+        },
+        "c12": {
+          "observations": "The character on the right bends down, and a blue glow appears on the ground near the white object. The left character is still.",
+          "continuity": "Identities and environment are consistent. The camera angle is slightly lower. The blue glow is a new visual element.",
+          "interest": "The blue glow introduces a mysterious element, hinting at a new detail or interaction with the object."
+        },
+        "c13": {
+          "observations": "The character on the right bends down, and the white object appears to float or be lifted. The left character is still.",
+          "continuity": "Identities and environment are consistent. The camera angle is slightly lower. The floating object creates a visual seam.",
+          "interest": "The levitating object is visually striking and introduces a fantastical element, making the scene more engaging."
+        },
+        "c14": {
+          "observations": "The character on the right bends down, and the white object is held in their hands. The left character is still.",
+          "continuity": "Identities and environment are consistent. The camera angle is slightly lower. The object is now clearly in the character's possession.",
+          "interest": "The clear possession of the object provides a sense of resolution or progression, making the scene feel complete."
+        }
+      },
+      "confidence": 0.79
+    },
+    "c3": {
+      "selectedId": "c32",
+      "order": [
+        "c32",
+        "c31",
+        "c33",
+        "c34"
+      ],
+      "probabilities": {
+        "c33": 0.0,
+        "c31": 0.01,
+        "c32": 0.99,
+        "c34": 0.0
+      },
+      "reviews": {
+        "c31": {
+          "observations": "The characters and the jellyfish-like robot continue walking forward on the street.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually consistent, but lacks a new element to maintain engagement."
+        },
+        "c32": {
+          "observations": "A large, reflective, futuristic vehicle appears, moving past the characters.",
+          "continuity": "Characters and environment are consistent. The vehicle introduces a new element seamlessly.",
+          "interest": "The new vehicle adds visual interest and suggests a developing narrative."
+        },
+        "c33": {
+          "observations": "The characters and the jellyfish-like robot continue walking forward on the street.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually consistent, but offers no new visual information or narrative progression."
+        },
+        "c34": {
+          "observations": "The characters and the jellyfish-like robot continue walking forward on the street.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually consistent, but does not introduce new elements to 'open the world'."
+        }
+      },
+      "confidence": 0.99
+    },
+    "c4": {
+      "selectedId": "c44",
+      "order": [
+        "c44",
+        "c41",
+        "c43",
+        "c42"
+      ],
+      "probabilities": {
+        "c42": 0.01,
+        "c43": 0.05,
+        "c44": 0.82,
+        "c41": 0.12
+      },
+      "reviews": {
+        "c41": {
+          "observations": "The two characters and the jellyfish continue walking forward, maintaining their relative positions.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually uninteresting; a direct continuation without new elements."
+        },
+        "c42": {
+          "observations": "A transparent, spherical bubble appears around the two characters, moving with them.",
+          "continuity": "Characters and environment are consistent. The bubble appears abruptly, creating a seam.",
+          "interest": "The sudden appearance of the bubble adds a new, intriguing visual element."
+        },
+        "c43": {
+          "observations": "The two characters and the jellyfish stop walking and turn to face the camera.",
+          "continuity": "Identities and environment are consistent. The camera angle remains the same.",
+          "interest": "The change in character action and direct gaze adds a moment of pause."
+        },
+        "c44": {
+          "observations": "The two characters and the jellyfish continue walking, but the camera pulls back, revealing more of the street.",
+          "continuity": "Identities are consistent. The environment expands, and the camera smoothly zooms out.",
+          "interest": "The widening shot provides a new perspective and sense of scale."
+        }
+      },
+      "confidence": 0.77
+    },
+    "d": {
+      "selectedId": "d4",
+      "order": [
+        "d4",
+        "d3",
+        "d1",
+        "d2"
+      ],
+      "probabilities": {
+        "d1": 0.06,
+        "d4": 0.8,
+        "d3": 0.11,
+        "d2": 0.03
+      },
+      "reviews": {
+        "d1": {
+          "observations": "The jellyfish-like creature glows brightly, illuminating the surrounding area. The characters are looking up at it.",
+          "continuity": "Characters and environment are consistent. The camera angle shifts slightly, but the overall scene is maintained.",
+          "interest": "The glowing jellyfish adds a magical element, creating visual intrigue."
+        },
+        "d2": {
+          "observations": "The scene widens, showing more of the street and buildings. The characters and jellyfish are smaller in the frame.",
+          "continuity": "Characters, jellyfish, and environment are consistent. The camera pulls back, maintaining the scene's integrity.",
+          "interest": "The wider view provides more context of the city, enhancing the sense of place."
+        },
+        "d3": {
+          "observations": "The camera lowers to eye level with the characters, who are still looking up at the jellyfish. The jellyfish is higher in the frame.",
+          "continuity": "Characters and environment are consistent. The camera smoothly transitions to eye level, maintaining continuity.",
+          "interest": "The eye-level view creates a more immersive and relatable perspective for the viewer."
+        },
+        "d4": {
+          "observations": "The camera orbits slightly around the characters and jellyfish, revealing a new angle of the street. The jellyfish is still glowing.",
+          "continuity": "Characters, jellyfish, and environment are consistent. The camera movement is smooth, maintaining scene continuity.",
+          "interest": "The orbital movement adds dynamic visual interest and a sense of exploration."
+        }
+      },
+      "confidence": 0.74
+    },
+    "d2": {
+      "selectedId": "d22",
+      "order": [
+        "d22",
+        "d21",
+        "d23",
+        "d24"
+      ],
+      "probabilities": {
+        "d21": 0.02,
+        "d23": 0.0,
+        "d22": 0.98,
+        "d24": 0.0
+      },
+      "reviews": {
+        "d21": {
+          "observations": "The jellyfish-like creature moves further to the right, and the two characters remain in the same position, looking up.",
+          "continuity": "Identities and environment are consistent. The camera maintains its position and zoom. No visible seam issues.",
+          "interest": "The continuation is visually weak as it simply extends the previous action without adding new elements."
+        },
+        "d22": {
+          "observations": "A blue glow appears on the right side of the frame, partially obscuring the building. The characters and creature are unchanged.",
+          "continuity": "Identities and environment are consistent. The camera maintains its position. A new visual effect is introduced.",
+          "interest": "The blue glow adds a new, intriguing visual element, suggesting an unfolding event or detail."
+        },
+        "d23": {
+          "observations": "The jellyfish-like creature moves slightly to the left, closer to the center. The characters remain looking up.",
+          "continuity": "Identities and environment are consistent. The camera maintains its position and zoom. No visible seam issues.",
+          "interest": "The continuation is visually weak as it shows minimal change, almost a repetition of the parent's last frame."
+        },
+        "d24": {
+          "observations": "The jellyfish-like creature moves slightly to the right. The two characters remain in the same position, looking up.",
+          "continuity": "Identities and environment are consistent. The camera maintains its position and zoom. No visible seam issues.",
+          "interest": "The continuation is visually weak as it offers very little new information or visual progression."
+        }
+      },
+      "confidence": 0.96
+    },
+    "d3": {
+      "selectedId": "d31",
+      "order": [
+        "d31",
+        "d34",
+        "d33",
+        "d32"
+      ],
+      "probabilities": {
+        "d33": 0.03,
+        "d32": 0.02,
+        "d34": 0.18,
+        "d31": 0.77
+      },
+      "reviews": {
+        "d31": {
+          "observations": "The camera pans right, following the characters and the jellyfish. The characters remain in the center of the frame.",
+          "continuity": "Identities and environment are consistent. Camera movement is smooth, maintaining eye level. No visible seams.",
+          "interest": "The smooth pan effectively follows the action, creating a sense of progression."
+        },
+        "d32": {
+          "observations": "A large, reflective, dome-like structure appears, partially obscuring the characters and the street.",
+          "continuity": "Characters and environment are consistent, but the sudden appearance of the dome creates a jarring visual seam.",
+          "interest": "The unexpected dome introduces a new, intriguing element, but its abrupt appearance is visually disruptive."
+        },
+        "d33": {
+          "observations": "The camera zooms out slightly, revealing more of the street and the jellyfish. The characters are smaller in frame.",
+          "continuity": "Identities and environment are consistent. The camera subtly pulls back, maintaining a continuous view. No seams.",
+          "interest": "The slight zoom-out offers a broader perspective, subtly shifting focus to the environment."
+        },
+        "d34": {
+          "observations": "The camera pans right, similar to d31, following the characters and the jellyfish. The background shifts.",
+          "continuity": "Identities and environment are consistent. The camera movement is a smooth pan, maintaining continuity. No visible seams.",
+          "interest": "The continuation of the pan provides a sense of ongoing journey and exploration."
+        }
+      },
+      "confidence": 0.7
+    },
+    "d4": {
+      "selectedId": "d41",
+      "order": [
+        "d41",
+        "d44",
+        "d42",
+        "d43"
+      ],
+      "probabilities": {
+        "d41": 0.47,
+        "d42": 0.17,
+        "d44": 0.29,
+        "d43": 0.07
+      },
+      "reviews": {
+        "d41": {
+          "observations": "The jellyfish-like object continues its orbit, moving from the right side of the frame towards the center-left. The characters remain looking up.",
+          "continuity": "Identities, environment, and camera position are consistent. The transition from parent to child is seamless.",
+          "interest": "The smooth continuation of the orbit provides a sense of natural progression."
+        },
+        "d42": {
+          "observations": "The jellyfish-like object continues its orbit. A transparent, curved barrier appears, reflecting the environment and a blue light.",
+          "continuity": "Characters and environment are consistent. The barrier introduces a new element, but the transition is smooth.",
+          "interest": "The introduction of the barrier and blue light adds a mysterious, sci-fi element."
+        },
+        "d43": {
+          "observations": "The jellyfish-like object continues its orbit. The camera slightly zooms out and pans right, revealing more of the street.",
+          "continuity": "Characters and environment are consistent. The camera movement is subtle and maintains continuity.",
+          "interest": "The slight camera adjustment offers a wider view, hinting at more to explore."
+        },
+        "d44": {
+          "observations": "The jellyfish-like object continues its orbit. The camera pans significantly to the right, revealing a wider street and more buildings.",
+          "continuity": "Characters and the core environment are consistent. The camera movement is a clear, intentional change.",
+          "interest": "The dramatic camera pan opens up the scene, suggesting a larger world beyond the initial view."
+        }
+      },
+      "confidence": 0.29
+    },
+    "root": {
+      "selectedId": "a",
+      "order": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "probabilities": {
+        "a": 0.92,
+        "c": 0.02,
+        "b": 0.05,
+        "d": 0.01
+      },
+      "reviews": {
+        "a": {
+          "observations": "The characters and the blue signal are walking forward on the street. The blue signal is now closer to the male character.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the street ahead. No visible seam issues.",
+          "interest": "The forward movement of the characters and the signal creates a sense of progression."
+        },
+        "b": {
+          "observations": "The characters and the blue signal are walking forward. The blue signal is now closer to the male character.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the street ahead. No visible seam issues.",
+          "interest": "Similar to 'a', the forward movement is the main visual interest."
+        },
+        "c": {
+          "observations": "The characters and the blue signal are walking forward. The blue signal is now closer to the male character.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the street ahead. No visible seam issues.",
+          "interest": "The continuation is visually similar to 'a' and 'b', lacking unique visual interest."
+        },
+        "d": {
+          "observations": "The characters and the blue signal are walking forward. The blue signal is now closer to the male character.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing more of the street ahead. No visible seam issues.",
+          "interest": "The continuation is visually similar to 'a', 'b', and 'c', offering little new visual information."
+        }
+      },
+      "confidence": 0.91
+    },
+    "b": {
+      "selectedId": "b1",
+      "order": [
+        "b1",
+        "b3",
+        "b4",
+        "b2"
+      ],
+      "probabilities": {
+        "b4": 0.13,
+        "b3": 0.21,
+        "b1": 0.61,
+        "b2": 0.05
+      },
+      "reviews": {
+        "b1": {
+          "observations": "The woman reaches out and touches the glass, causing the jellyfish reflection to glow brightly.",
+          "continuity": "Identities and environment are consistent. Camera angle is slightly different, showing the woman's hand more clearly.",
+          "interest": "The glowing jellyfish adds a magical element, making the interaction visually engaging."
+        },
+        "b2": {
+          "observations": "The camera pans to show the interior of the shop, revealing mannequins and clothing behind the glass.",
+          "continuity": "Identities are consistent, but the environment shifts from reflection to reality. Camera moves to reveal the shop's interior.",
+          "interest": "The reveal of the shop's interior breaks the illusion of the reflection, creating a sense of discovery."
+        },
+        "b3": {
+          "observations": "The woman turns and walks away from the glass, following the path of the reflected light on the ground.",
+          "continuity": "Identities are consistent. The environment remains the same, but the camera follows the woman's movement.",
+          "interest": "The movement away from the reflection and the focus on the light creates a sense of purpose and direction."
+        },
+        "b4": {
+          "observations": "The woman turns and walks back towards the sidewalk, away from the shop window.",
+          "continuity": "Identities and environment are consistent. The camera follows the woman as she moves away from the building.",
+          "interest": "The return to the sidewalk feels like a reset, offering a clear transition from the interaction with the reflection."
+        }
+      },
+      "confidence": 0.48
+    },
+    "b1": {
+      "selectedId": "b11",
+      "order": [
+        "b11",
+        "b13",
+        "b14",
+        "b12"
+      ],
+      "probabilities": {
+        "b13": 0.1,
+        "b11": 0.83,
+        "b12": 0.03,
+        "b14": 0.04
+      },
+      "reviews": {
+        "b11": {
+          "observations": "The man and woman are still holding the jellyfish. The jellyfish is moving to the right, away from the camera.",
+          "continuity": "Identities are consistent. Environment is consistent. Camera angle is consistent. No visible seam issues.",
+          "interest": "The motion of the jellyfish is the primary visual interest."
+        },
+        "b12": {
+          "observations": "The man and woman are still holding the jellyfish. A transparent dome appears behind them.",
+          "continuity": "Identities are consistent. Environment is consistent. Camera angle is consistent. No visible seam issues.",
+          "interest": "The sudden appearance of the dome is visually interesting."
+        },
+        "b13": {
+          "observations": "The man and woman are still holding the jellyfish. The jellyfish is moving to the right, away from the camera.",
+          "continuity": "Identities are consistent. Environment is consistent. Camera angle is consistent. No visible seam issues.",
+          "interest": "The motion of the jellyfish is the primary visual interest."
+        },
+        "b14": {
+          "observations": "The man and woman are still holding the jellyfish. The camera pulls back, revealing more of the street.",
+          "continuity": "Identities are consistent. Environment is consistent. Camera angle changes. No visible seam issues.",
+          "interest": "The wider shot reveals more of the environment, adding context."
+        }
+      },
+      "confidence": 0.78
+    },
+    "b2": {
+      "selectedId": "b22",
+      "order": [
+        "b22",
+        "b21",
+        "b23",
+        "b24"
+      ],
+      "probabilities": {
+        "b21": 0.03,
+        "b22": 0.95,
+        "b23": 0.01,
+        "b24": 0.01
+      },
+      "reviews": {
+        "b21": {
+          "observations": "The two characters are standing still, facing away from the camera. The blue jellyfish-like creature is still present.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually uninteresting as nothing changes from the parent clip."
+        },
+        "b22": {
+          "observations": "A street lamp appears on the right side of the frame, partially obscuring the view of the characters.",
+          "continuity": "Characters and environment are consistent. The camera shifts slightly to the right, introducing the lamp.",
+          "interest": "The new detail of the lamp adds a slight change to the scene."
+        },
+        "b23": {
+          "observations": "The two characters are standing still, facing away from the camera. The blue jellyfish-like creature is still present.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually uninteresting as nothing changes from the parent clip."
+        },
+        "b24": {
+          "observations": "The two characters are standing still, facing away from the camera. The blue jellyfish-like creature is still present.",
+          "continuity": "Identities, environment, and camera angle are consistent. No visible seam issues.",
+          "interest": "Visually uninteresting as nothing changes from the parent clip."
+        }
+      },
+      "confidence": 0.94
+    },
+    "b3": {
+      "selectedId": "b32",
+      "order": [
+        "b32",
+        "b34",
+        "b31",
+        "b33"
+      ],
+      "probabilities": {
+        "b34": 0.21,
+        "b32": 0.59,
+        "b31": 0.14,
+        "b33": 0.06
+      },
+      "reviews": {
+        "b31": {
+          "observations": "The two characters are standing on the street, facing away from the camera. A glowing jellyfish-like object appears to their right.",
+          "continuity": "Characters and environment are consistent. The jellyfish object is a new element, but its appearance is smooth.",
+          "interest": "The introduction of the glowing jellyfish adds a mysterious and intriguing element."
+        },
+        "b32": {
+          "observations": "The two characters are standing on the street, facing away from the camera. A glowing jellyfish-like object appears to their right.",
+          "continuity": "Characters and environment are consistent. The jellyfish object is a new element, but its appearance is smooth.",
+          "interest": "The introduction of the glowing jellyfish adds a mysterious and intriguing element."
+        },
+        "b33": {
+          "observations": "The two characters are standing on the street, facing away from the camera. A glowing jellyfish-like object appears to their right.",
+          "continuity": "Characters and environment are consistent. The jellyfish object is a new element, but its appearance is smooth.",
+          "interest": "The introduction of the glowing jellyfish adds a mysterious and intriguing element."
+        },
+        "b34": {
+          "observations": "The two characters are standing on the street, facing away from the camera. A glowing jellyfish-like object appears to their right.",
+          "continuity": "Characters and environment are consistent. The jellyfish object is a new element, but its appearance is smooth.",
+          "interest": "The introduction of the glowing jellyfish adds a mysterious and intriguing element."
+        }
+      },
+      "confidence": 0.44
+    },
+    "b4": {
+      "selectedId": "b41",
+      "order": [
+        "b41",
+        "b43",
+        "b42",
+        "b44"
+      ],
+      "probabilities": {
+        "b42": 0.0,
+        "b41": 0.99,
+        "b43": 0.01,
+        "b44": 0.0
+      },
+      "reviews": {
+        "b41": {
+          "observations": "The blue-coated character and the jellyfish-like creature move from right to left, away from the camera. The other character remains stationary.",
+          "continuity": "The characters and environment are consistent. The camera angle and position are maintained, creating a smooth transition.",
+          "interest": "The motion of the blue character and creature adds dynamic interest to the scene."
+        },
+        "b42": {
+          "observations": "The blue-coated character and the jellyfish-like creature are no longer visible. The scene is static with only the male character present.",
+          "continuity": "The male character and environment are consistent. The camera angle and position are maintained. The disappearance of the other characters is a seam issue.",
+          "interest": "The sudden absence of the blue character and creature is jarring and lacks visual interest."
+        },
+        "b43": {
+          "observations": "The blue-coated character and the jellyfish-like creature are now positioned to the left of the male character, facing him.",
+          "continuity": "The characters and environment are consistent. The camera angle and position are maintained. The sudden change in character position is a seam issue.",
+          "interest": "The change in character positioning creates a new interaction, adding visual interest."
+        },
+        "b44": {
+          "observations": "The blue-coated character and the jellyfish-like creature are no longer visible. The scene is static with only the male character present.",
+          "continuity": "The male character and environment are consistent. The camera angle and position are maintained. The disappearance of the other characters is a seam issue.",
+          "interest": "The static nature and missing characters make this continuation visually uninteresting."
+        }
+      },
+      "confidence": 0.98
+    },
+    "c2": {
+      "selectedId": "c24",
+      "order": [
+        "c24",
+        "c21",
+        "c22",
+        "c23"
+      ],
+      "probabilities": {
+        "c22": 0.01,
+        "c23": 0.01,
+        "c24": 0.84,
+        "c21": 0.14
+      },
+      "reviews": {
+        "c21": {
+          "observations": "The glowing jellyfish-like creature moves slightly to the right, maintaining its position relative to the two characters.",
+          "continuity": "Identities, environment, and camera angle are consistent. The creature's movement is smooth.",
+          "interest": "Good continuity, but the movement is subtle and doesn't add much visual interest."
+        },
+        "c22": {
+          "observations": "The glowing jellyfish-like creature appears to slightly shrink or move further away, becoming less prominent.",
+          "continuity": "Characters, environment, and camera are consistent. The creature's size change is the main difference.",
+          "interest": "The subtle change in the creature's size or distance is a weak 'new detail'."
+        },
+        "c23": {
+          "observations": "The glowing jellyfish-like creature moves slightly to the left, returning to a position similar to earlier frames.",
+          "continuity": "Identities, environment, and camera angle are consistent. The creature's movement is a slight shift.",
+          "interest": "The creature's movement back to the left feels like a minor, uninteresting adjustment."
+        },
+        "c24": {
+          "observations": "The camera pulls back, revealing more of the street and buildings, while the characters and creature remain centered.",
+          "continuity": "Characters and creature are consistent. The environment expands as the camera zooms out.",
+          "interest": "The camera pull-back effectively 'opens the world' and adds visual depth to the scene."
+        }
+      },
+      "confidence": 0.79
+    },
+    "d1": {
+      "selectedId": "d11",
+      "order": [
+        "d11",
+        "d12",
+        "d13",
+        "d14"
+      ],
+      "probabilities": {
+        "d12": 0.49,
+        "d14": 0.0,
+        "d13": 0.01,
+        "d11": 0.5
+      },
+      "reviews": {
+        "d11": {
+          "observations": "The glowing jellyfish-like creature moves slightly to the right and down, maintaining its position above the tree.",
+          "continuity": "The environment, characters (not visible), and camera angle remain consistent. The jellyfish's movement is smooth.",
+          "interest": "The subtle motion of the creature suggests it's alive and moving, adding a touch of mystery."
+        },
+        "d12": {
+          "observations": "The glowing jellyfish-like creature moves slightly to the right and down, maintaining its position above the tree.",
+          "continuity": "The environment, characters (not visible), and camera angle remain consistent. The jellyfish's movement is smooth.",
+          "interest": "The subtle motion of the creature suggests it's alive and moving, adding a touch of mystery."
+        },
+        "d13": {
+          "observations": "The glowing jellyfish-like creature is still above the tree. Two characters appear in the foreground, looking up.",
+          "continuity": "The environment is consistent. The sudden appearance of characters breaks continuity with the previous empty scene.",
+          "interest": "The introduction of characters immediately adds a narrative element and a focal point."
+        },
+        "d14": {
+          "observations": "The glowing jellyfish-like creature is still above the tree. Two characters appear in the foreground, looking up.",
+          "continuity": "The environment is consistent. The sudden appearance of characters breaks continuity with the previous empty scene.",
+          "interest": "The introduction of characters immediately adds a narrative element and a focal point."
+        }
+      },
+      "confidence": 0.33
+    },
+    "a14r": {
+      "selectedId": "a14r1",
+      "order": [
+        "a14r1",
+        "a14r4",
+        "a14r2",
+        "a14r3"
+      ],
+      "probabilities": {
+        "a14r4": 0.24,
+        "a14r1": 0.46,
+        "a14r2": 0.21,
+        "a14r3": 0.09
+      },
+      "reviews": {
+        "a14r1": {
+          "observations": "The characters and the blue jellyfish-like object are in the same position as the last parent frame.",
+          "continuity": "Identities, environment, and camera angle are perfectly continuous. No visible seam issues.",
+          "interest": "Visually uninteresting due to lack of change or movement."
+        },
+        "a14r2": {
+          "observations": "The characters and the blue jellyfish-like object are in the same position as the last parent frame.",
+          "continuity": "Identities, environment, and camera angle are perfectly continuous. No visible seam issues.",
+          "interest": "Visually uninteresting due to lack of change or movement."
+        },
+        "a14r3": {
+          "observations": "The characters and the blue jellyfish-like object are in the same position as the last parent frame.",
+          "continuity": "Identities, environment, and camera angle are perfectly continuous. No visible seam issues.",
+          "interest": "Visually uninteresting due to lack of change or movement."
+        },
+        "a14r4": {
+          "observations": "The characters and the blue jellyfish-like object are in the same position as the last parent frame.",
+          "continuity": "Identities, environment, and camera angle are perfectly continuous. No visible seam issues.",
+          "interest": "Visually uninteresting due to lack of change or movement."
+        }
+      },
+      "confidence": 0.29
+    },
+    "b11r": {
+      "selectedId": "b11r4",
+      "order": [
+        "b11r4",
+        "b11r1",
+        "b11r2",
+        "b11r3"
+      ],
+      "probabilities": {
+        "b11r3": 0.18,
+        "b11r1": 0.23,
+        "b11r2": 0.23,
+        "b11r4": 0.36
+      },
+      "reviews": {
+        "b11r1": {
+          "observations": "The woman and man are now facing the camera, with the blue jellyfish-like signal between them.",
+          "continuity": "Identities and environment are consistent. Camera angle shifts slightly, creating a noticeable seam.",
+          "interest": "The sudden camera shift is jarring, weakening visual flow."
+        },
+        "b11r2": {
+          "observations": "The woman and man are now facing the camera, with the blue jellyfish-like signal between them.",
+          "continuity": "Identities and environment are consistent. Camera angle shifts slightly, creating a noticeable seam.",
+          "interest": "The sudden camera shift is jarring, weakening visual flow."
+        },
+        "b11r3": {
+          "observations": "The woman and man are now facing the camera, with the blue jellyfish-like signal between them.",
+          "continuity": "Identities and environment are consistent. Camera angle shifts slightly, creating a noticeable seam.",
+          "interest": "The sudden camera shift is jarring, weakening visual flow."
+        },
+        "b11r4": {
+          "observations": "The woman and man are now facing the camera, with the blue jellyfish-like signal between them.",
+          "continuity": "Identities and environment are consistent. Camera angle shifts slightly, creating a noticeable seam.",
+          "interest": "The sudden camera shift is jarring, weakening visual flow."
+        }
+      },
+      "confidence": 0.14
+    },
+    "c44r": {
+      "selectedId": "c44r2",
+      "order": [
+        "c44r2",
+        "c44r1",
+        "c44r3",
+        "c44r4"
+      ],
+      "probabilities": {
+        "c44r2": 0.63,
+        "c44r1": 0.26,
+        "c44r3": 0.09,
+        "c44r4": 0.02
+      },
+      "reviews": {
+        "c44r1": {
+          "observations": "The character and blue light continue walking across the crosswalk, moving from right to left across the frame.",
+          "continuity": "Excellent continuity. Character, blue light, environment, and camera position are perfectly maintained from the parent clip.",
+          "interest": "Visually weak as it's a direct continuation without new elements or camera changes."
+        },
+        "c44r2": {
+          "observations": "The character and blue light continue walking across the crosswalk, moving from right to left across the frame.",
+          "continuity": "Excellent continuity. Character, blue light, environment, and camera position are perfectly maintained from the parent clip.",
+          "interest": "Visually weak as it's a direct continuation without new elements or camera changes."
+        },
+        "c44r3": {
+          "observations": "A new character appears on the left, facing the original character and blue light. The original character stops.",
+          "continuity": "Good continuity for the original character and environment. The new character's appearance is an abrupt change.",
+          "interest": "The introduction of a new character immediately adds visual interest and narrative potential."
+        },
+        "c44r4": {
+          "observations": "A new character appears on the left, facing the original character and blue light. The original character stops.",
+          "continuity": "Good continuity for the original character and environment. The new character's appearance is an abrupt change.",
+          "interest": "The introduction of a new character immediately adds visual interest and narrative potential."
+        }
+      },
+      "confidence": 0.51
+    },
+    "d41r": {
+      "selectedId": "d41r1",
+      "order": [
+        "d41r1",
+        "d41r4",
+        "d41r2",
+        "d41r3"
+      ],
+      "probabilities": {
+        "d41r3": 0.11,
+        "d41r2": 0.19,
+        "d41r1": 0.44,
+        "d41r4": 0.26
+      },
+      "reviews": {
+        "d41r1": {
+          "observations": "The two characters and the blue signal are in the same position. The background buildings and street are identical.",
+          "continuity": "Excellent continuity. Characters, signal, environment, and camera angle are perfectly matched.",
+          "interest": "Visually uninteresting due to perfect replication; no change or progression."
+        },
+        "d41r2": {
+          "observations": "The two characters and the blue signal are in the same position. The background buildings and street are identical.",
+          "continuity": "Excellent continuity. Characters, signal, environment, and camera angle are perfectly matched.",
+          "interest": "Visually uninteresting due to perfect replication; no change or progression."
+        },
+        "d41r3": {
+          "observations": "The two characters and the blue signal are in the same position. The background buildings and street are identical.",
+          "continuity": "Excellent continuity. Characters, signal, environment, and camera angle are perfectly matched.",
+          "interest": "Visually uninteresting due to perfect replication; no change or progression."
+        },
+        "d41r4": {
+          "observations": "The two characters and the blue signal are in the same position. The background buildings and street are identical.",
+          "continuity": "Excellent continuity. Characters, signal, environment, and camera angle are perfectly matched.",
+          "interest": "Visually uninteresting due to perfect replication; no change or progression."
+        }
+      },
+      "confidence": 0.26
+    }
+  },
+  "explanation": "Jev preference probabilities based on Gemini reviews of sampled frames. Descriptions are Gemini observations, not explanations authored by Jev. Ranking is subjective and was recorded after generation.",
+  "revision": "continuous-v2",
+  "refreshedForkCount": 12,
+  "priorJevRequestId": "01a0d057-4194-7283-9b41-8c7271c454db"
+}

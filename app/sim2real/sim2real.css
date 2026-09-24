@@ -1,0 +1,278 @@
+/* Additions to the shared robotics (S03) styles. */
+.sim2real .alert {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.sim2real-shell {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+}
+.sim2real-shell video,
+.sim2real-shell > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The 3D source is shown in black and white; colour belongs to the H3 render. */
+.sim2real-shell .ref-video {
+  filter: grayscale(1) contrast(1.15) brightness(0.95);
+  opacity: 0;
+}
+.view-ref .ref-video {
+  opacity: 1;
+}
+.view-split .ref-video {
+  opacity: 1;
+  clip-path: inset(0 50% 0 0);
+}
+.view-split::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 1px solid #fff;
+  pointer-events: none;
+}
+.box-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.gt-box {
+  position: absolute;
+  font-size: 7px;
+  letter-spacing: 0.04em;
+}
+.gt-box.truth {
+  border: 1px dashed rgba(255, 255, 255, 0.85);
+}
+.gt-box.measured {
+  border: 1px solid #fff;
+}
+.gt-box span {
+  position: absolute;
+  left: -1px;
+  top: -12px;
+  background: #000;
+  color: #ddd;
+  padding: 1px 3px;
+  white-space: nowrap;
+}
+.gt-box.measured span {
+  top: auto;
+  bottom: -12px;
+  background: #fff;
+  color: #000;
+}
+.view-switch {
+  display: flex;
+  gap: 1px;
+  border-top: 1px solid var(--line);
+}
+.view-switch button {
+  flex: 1;
+  height: 30px !important;
+  background: transparent;
+  color: #8a8a8a;
+  border: 0;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.view-switch button.on {
+  color: #000;
+  background: #d8d8d8;
+}
+.sim2real .candidate > span {
+  display: flex;
+  justify-content: space-between;
+}
+.sim2real .candidate em {
+  font-style: normal;
+  font-size: 8px;
+  color: #9a9a9a;
+}
+.sim2real .candidate.chosen em {
+  color: #fff;
+}
+.sim2real .candidate.viewing {
+  outline: 1px solid #555;
+}
+.sim2real .candidate dl {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 8px;
+  margin: 6px 0 0;
+  font-size: 9px;
+}
+.sim2real .candidate dt {
+  color: #777;
+}
+.sim2real .candidate dd {
+  margin: 0;
+  color: #ddd;
+}
+.sim2real .preference-track {
+  position: relative;
+}
+.sim2real .preference-track u {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  border-left: 1px solid #aaa;
+}
+.fidelity-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px 8px;
+  margin: 10px 0 4px;
+  font-size: 9px;
+}
+.fidelity-grid span {
+  color: #7d7d7d;
+}
+.fidelity-grid b {
+  font-weight: normal;
+  color: #e0e0e0;
+}
+.sim2real .decision-chain {
+  flex-wrap: wrap;
+}
+
+/* One type size everywhere: 14px Courier, hierarchy by colour and case only. */
+.sim2real,
+.sim2real * {
+  font-size: 14px !important;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+}
+.sim2real .stage-label h1,
+.sim2real .jev-choice,
+.sim2real .world-counters b,
+.sim2real .data-cell-value,
+.sim2real .trace-title b {
+  font-weight: normal;
+  color: #f0f0f0;
+}
+.sim2real .world-brand span,
+.sim2real .rail-footnote,
+.sim2real .analysis-small {
+  color: #8a8a8a;
+}
+
+.risk-card {
+  border: 1px solid #333;
+  padding: 10px 12px;
+  margin: 8px 0 12px;
+  display: grid;
+  gap: 4px;
+}
+.risk-card span {
+  color: #7d7d7d;
+}
+.risk-card b {
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  color: #e8e8e8;
+}
+.risk-card em {
+  font-style: normal;
+  color: #bdbdbd;
+}
+.risk-card.risk-high {
+  border-color: #fff;
+  background: #fff;
+}
+.risk-card.risk-high span,
+.risk-card.risk-high b,
+.risk-card.risk-high em {
+  color: #000;
+}
+.risk-card.risk-mid {
+  border-color: #cfcfcf;
+  border-style: dashed;
+}
+.sim2real .gt-box span {
+  font-size: 11px !important;
+}
+
+.sim2real-shell .preview-gray {
+  filter: grayscale(1) contrast(1.15) brightness(0.95);
+}
+
+/* Full-screen loading state; the tour clock starts once everything is in memory. */
+.sim2real {
+  position: relative;
+}
+.load-screen {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  background: #030303;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.load-screen span,
+.load-screen small {
+  color: #7d7d7d;
+}
+.load-screen b {
+  font-weight: normal;
+  color: #f0f0f0;
+  letter-spacing: 0.08em;
+}
+.load-line {
+  width: min(360px, 70vw);
+  height: 1px;
+  background: #2a2a2a;
+}
+.load-line i {
+  display: block;
+  height: 1px;
+  background: #f0f0f0;
+  transition: width 0.2s ease;
+}
+
+.world-switch {
+  display: flex;
+  border: 1px solid #333;
+}
+.world-switch button {
+  background: transparent;
+  color: #9a9a9a;
+  border: 0;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.world-switch button.on {
+  background: #e8e8e8;
+  color: #000;
+}
+
+.sim2real .candidate.pickable {
+  cursor: pointer;
+}
+.sim2real .candidate.pickable:hover {
+  outline: 1px solid #888;
+}
+.sim2real-shell .clip-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  opacity: 1;
+  transition: opacity 0.85s ease-in-out;
+}
+.sim2real-shell .clip-cover.fading {
+  opacity: 0;
+}

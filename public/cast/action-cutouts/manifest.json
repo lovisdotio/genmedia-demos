@@ -1,0 +1,537 @@
+{
+  "model": "fal-ai/bria/background/remove",
+  "byTitle": {
+    "A signal in the city": {
+      "image": "/cast/action-cutouts/e809b3747617.png",
+      "sourceScene": "root",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        116,
+        47,
+        493,
+        333
+      ]
+    },
+    "Follow the blue signal": {
+      "image": "/cast/action-cutouts/937d5eaefb0c.png",
+      "sourceScene": "a",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        132,
+        27,
+        364,
+        359
+      ]
+    },
+    "Read the reflection": {
+      "image": "/cast/action-cutouts/2ada94206660.png",
+      "sourceScene": "b",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        155,
+        36,
+        362,
+        353
+      ]
+    },
+    "Listen to the companion": {
+      "image": "/cast/action-cutouts/4913c8ba2cf8.png",
+      "sourceScene": "c",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        156,
+        35,
+        363,
+        349
+      ]
+    },
+    "Look up at the city": {
+      "image": "/cast/action-cutouts/03da4c8ca96f.png",
+      "sourceScene": "d",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        116,
+        44,
+        366,
+        360
+      ]
+    },
+    "A brighter signal": {
+      "image": "/cast/action-cutouts/08600e1062ae.png",
+      "sourceScene": "a1",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        83,
+        25,
+        351,
+        360
+      ]
+    },
+    "A turn toward the street": {
+      "image": "/cast/action-cutouts/e743ed1c1eff.png",
+      "sourceScene": "a2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        95,
+        32,
+        357,
+        354
+      ]
+    },
+    "Follow the reflection": {
+      "image": "/cast/action-cutouts/4b3963f88708.png",
+      "sourceScene": "a3",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        99,
+        38,
+        322,
+        360
+      ]
+    },
+    "Let the signal return": {
+      "image": "/cast/action-cutouts/2eae7147e3d9.png",
+      "sourceScene": "a4",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        97,
+        32,
+        370,
+        355
+      ]
+    },
+    "Touch the glass": {
+      "image": "/cast/action-cutouts/d7fe3dfd4393.png",
+      "sourceScene": "b1",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        129,
+        42,
+        336,
+        355
+      ]
+    },
+    "Look behind the reflection": {
+      "image": "/cast/action-cutouts/bbcd4e97854f.png",
+      "sourceScene": "b2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        121,
+        49,
+        347,
+        341
+      ]
+    },
+    "Follow the reflected light": {
+      "image": "/cast/action-cutouts/5116ee9dd7d8.png",
+      "sourceScene": "b3",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        213,
+        51,
+        347,
+        344
+      ]
+    },
+    "Return to the sidewalk": {
+      "image": "/cast/action-cutouts/67e0ffb18975.png",
+      "sourceScene": "b4",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        201,
+        51,
+        346,
+        343
+      ]
+    },
+    "Answer the signal": {
+      "image": "/cast/action-cutouts/7c9e5efcddd9.png",
+      "sourceScene": "c1",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        201,
+        44,
+        417,
+        346
+      ]
+    },
+    "Watch the blue fins": {
+      "image": "/cast/action-cutouts/02243ab283e3.png",
+      "sourceScene": "c2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        189,
+        81,
+        368,
+        360
+      ]
+    },
+    "Listen together": {
+      "image": "/cast/action-cutouts/e2cf979aab51.png",
+      "sourceScene": "c3",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        176,
+        41,
+        370,
+        360
+      ]
+    },
+    "Carry on together": {
+      "image": "/cast/action-cutouts/afde253fbb96.png",
+      "sourceScene": "c4",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        129,
+        27,
+        317,
+        360
+      ]
+    },
+    "The light in the eaves": {
+      "image": "/cast/action-cutouts/b6faf790cb2d.png",
+      "sourceScene": "d1",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        215,
+        76,
+        306,
+        205
+      ]
+    },
+    "A wider view": {
+      "image": "/cast/action-cutouts/cdce7dcf8b26.png",
+      "sourceScene": "d2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        230,
+        84,
+        309,
+        211
+      ]
+    },
+    "Back to eye level": {
+      "image": "/cast/action-cutouts/3d7aec3306dd.png",
+      "sourceScene": "d3",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        141,
+        82,
+        423,
+        360
+      ]
+    },
+    "A small orbit": {
+      "image": "/cast/action-cutouts/1e3698aecdb3.png",
+      "sourceScene": "d4",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        225,
+        54,
+        352,
+        188
+      ]
+    },
+    "Follow the motion": {
+      "image": "/cast/action-cutouts/c428297aa64a.png",
+      "sourceScene": "a11",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        23,
+        5,
+        364,
+        360
+      ]
+    },
+    "Notice a new detail": {
+      "image": "/cast/action-cutouts/2ff6462b1df4.png",
+      "sourceScene": "a12",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        5,
+        0,
+        347,
+        360
+      ]
+    },
+    "Circle back": {
+      "image": "/cast/action-cutouts/2ea6b4680133.png",
+      "sourceScene": "a13",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        11,
+        1,
+        349,
+        360
+      ]
+    },
+    "Let the world open": {
+      "image": "/cast/action-cutouts/1435fad49cb2.png",
+      "sourceScene": "a14",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        69,
+        10,
+        382,
+        360
+      ]
+    },
+    "Follow the returning signal": {
+      "image": "/cast/action-cutouts/61f6e7495b65.png",
+      "sourceScene": "a11r",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        11,
+        2,
+        338,
+        360
+      ]
+    },
+    "A reflection at their feet": {
+      "image": "/cast/action-cutouts/0dff3307f327.png",
+      "sourceScene": "a12r",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        4,
+        0,
+        543,
+        360
+      ]
+    },
+    "The loop comes around": {
+      "image": "/cast/action-cutouts/85f70d125f96.png",
+      "sourceScene": "a13r",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        4,
+        1,
+        348,
+        360
+      ]
+    },
+    "Back into the street": {
+      "image": "/cast/action-cutouts/6833f94828e5.png",
+      "sourceScene": "a14r",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        190,
+        32,
+        425,
+        360
+      ]
+    },
+    "Return to the window": {
+      "image": "/cast/action-cutouts/4b5120961426.png",
+      "sourceScene": "a14r1",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        238,
+        37,
+        449,
+        340
+      ]
+    },
+    "Follow the sidewalk": {
+      "image": "/cast/action-cutouts/e549fe9d19d7.png",
+      "sourceScene": "a14r2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        244,
+        41,
+        451,
+        339
+      ]
+    },
+    "Gather around the signal": {
+      "image": "/cast/action-cutouts/7aec8f65c7b1.png",
+      "sourceScene": "a14r3",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        236,
+        38,
+        451,
+        344
+      ]
+    },
+    "Trace the blue light": {
+      "image": "/cast/action-cutouts/cd77a2d20076.png",
+      "sourceScene": "a14r4",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        241,
+        41,
+        450,
+        340
+      ]
+    },
+    "The reflection answers": {
+      "image": "/cast/action-cutouts/10518ce00841.png",
+      "sourceScene": "a14r1t",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        249,
+        46,
+        434,
+        329
+      ]
+    },
+    "The street continues": {
+      "image": "/cast/action-cutouts/f35dd3525ba4.png",
+      "sourceScene": "a14r2t",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        278,
+        53,
+        449,
+        314
+      ]
+    },
+    "A quiet response": {
+      "image": "/cast/action-cutouts/2ce6b9a0717f.png",
+      "sourceScene": "a14r3t",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        228,
+        41,
+        493,
+        344
+      ]
+    },
+    "The light moves on": {
+      "image": "/cast/action-cutouts/dd65b2c867aa.png",
+      "sourceScene": "a14r4t",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        262,
+        55,
+        439,
+        329
+      ]
+    },
+    "Return to the shared path": {
+      "image": "/cast/action-cutouts/9ae5265fbb78.png",
+      "sourceScene": "bridge-a14r3t-a14r2",
+      "size": [
+        640,
+        360
+      ],
+      "bounds": [
+        198,
+        41,
+        472,
+        360
+      ]
+    }
+  }
+}
